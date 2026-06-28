@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: Open an issue about a bug that needs fixing.
+description: Open an issue about the bbl Scoop manifest or bucket behavior.
 title: "[Bug]: "
 labels: ["bug"]
 body:

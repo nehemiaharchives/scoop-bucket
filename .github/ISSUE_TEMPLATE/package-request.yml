@@ -1,5 +1,5 @@
-name: 📦 Package Request
-description: Open an issue about a missing package.
+name: 📦 bbl Bucket Request
+description: Request a bbl-related Scoop manifest or install behavior change.
 title: "[Request]: "
 labels: ["package-request"]
 body:
@@ -12,13 +12,13 @@ body:
 - type: checkboxes
   attributes:
     label: Criteria
-    description: For a package to be acceptable in this bucket, it should be
+    description: Requests for this bucket should be related to bbl and installable through Scoop.
     options:
-    - label: Criteria 1
+    - label: The request is for bbl, an official bbl release asset, or a companion asset used by bbl.
       required: true
-    - label: Criteria 2
+    - label: The requested asset is published by nehemiaharchives or another trusted upstream.
       required: true
-    - label: Criteria 3
+    - label: The requested behavior can be implemented in a Scoop manifest or bucket script.
       required: true
 - type: input
   attributes:
