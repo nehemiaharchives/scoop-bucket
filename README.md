@@ -5,7 +5,7 @@
 ## Install
 
 ```pwsh
-scoop bucket add bbl https://github.com/nehemiaharchives/scoop-bucket
+scoop bucket add bbl https://github.com/nehemiaharchives/bbl-scoop-bucket
 scoop install bbl
 ```
 
