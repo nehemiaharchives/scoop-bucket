@@ -5,8 +5,8 @@
 ## Install
 
 ```pwsh
-scoop bucket add gnit https://github.com/nehemiaharchives/scoop-bucket
-scoop install gnit/bbl
+scoop bucket add bbl https://github.com/nehemiaharchives/scoop-bucket
+scoop install bbl
 ```
 
 The `bbl` manifest installs the Windows x64 CLI and seeds the default local data directory with:
